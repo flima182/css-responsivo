@@ -1,0 +1,34 @@
+@media (min-width: 768px) and (max-width: 1920px) {
+    .container {
+        width: 100%;
+
+    }
+
+    .nav {
+        justify-content: space-evenly;
+    }
+
+    .col-1 {
+        width: calc(8.33% * 2);
+        padding-left: 2rem;
+        display: flex;
+
+    }
+
+    .col-4 {
+        width: calc(8.33% * 5);
+        padding-right: 2rem;
+    }
+
+    header .container .hero {
+        align-items: center;
+        justify-content: normal;
+
+    }
+
+    .steps {
+        flex-wrap: nowrap;
+    }
+
+    
+}
